@@ -1,0 +1,29 @@
+{
+  "name": "simple-chatroom",
+  "type": "module",
+  "scripts": {
+    "start": "run-p dev serve",
+    "serve": "air",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.0.1",
+    "@tailwindcss/typography": "^0.5.10",
+    "@tsconfig/svelte": "^5.0.2",
+    "autoprefixer": "^10.4.16",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.31",
+    "rimraf": "^5.0.5",
+    "svelte": "^4.2.7",
+    "svelte-check": "^3.6.2",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.2"
+  },
+  "dependencies": {
+    "marked": "^10.0.0"
+  }
+}
