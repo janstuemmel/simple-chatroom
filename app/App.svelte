@@ -44,7 +44,7 @@
     bind:value={registerUserInputValue} 
     on:keydown={registerUser}
     type="text"
-    class="w-full p-2 bg-nord-1 rounded-md focus:outline-none font-mono tracking-wider" 
+    class="w-full p-2 bg-nord-4 dark:bg-nord-1 rounded-md focus:outline-none font-mono tracking-wider" 
     placeholder="Enter username..." />
 </Modal>
 
